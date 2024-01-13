@@ -1,0 +1,31 @@
+:root {
+    --roxo: #9353FF;
+    --verde: #DAFF01;
+}
+
+.text-minor {
+    font-size: 0.7rem;
+}
+
+.div-facility {
+    width: 20rem;
+}
+
+.green {
+    color: var(--verde);
+}
+
+.purple {
+    background-color: var(--roxo);
+    border: none;
+}
+
+.posicao {
+    top: 40%;
+}
+
+@media(max-width: 767px) {
+    .posicao {
+        top: 60%;
+    }
+}
